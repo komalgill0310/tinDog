@@ -33,7 +33,7 @@ General Requirements for the HTML:
 
 _FIRST TASK:_
 
-1. Have the three icons in the header.
+1. Have the three icons in the header.✅
 2. Highlight the middle one.
 
 _SECOND TASK:_
