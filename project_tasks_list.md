@@ -29,7 +29,7 @@ General Requirements for the HTML:
 
 <!-- BREAKDOWN -->
 
-**HTML**
+**HTML and CSS**
 
 _FIRST TASK:_
 
@@ -38,7 +38,7 @@ _FIRST TASK:_
 
 _SECOND TASK:_
 
-1. Have the dog image rendered on the page.
+1. Have the dog image rendered on the page.✅
 2. Have the text on top of the image, at the left bottom of the image.
 
 _THIRD TASK:_
