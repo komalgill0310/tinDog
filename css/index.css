@@ -1,3 +1,19 @@
 body {
   background-color: black;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 33px;
+}
+
+.paw-icon {
+  background: linear-gradient(270deg, #fa695a 0%, #f83375 100%);
+  border-radius: 30px;
+  padding: 7px 17px;
+}
