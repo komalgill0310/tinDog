@@ -39,10 +39,10 @@ _FIRST TASK:_
 _SECOND TASK:_
 
 1. Have the dog image rendered on the page.✅
-2. Have the text on top of the image, at the left bottom of the image.
+2. Have the text on top of the image, at the left bottom of the image.✅
 
 _THIRD TASK:_
 
 1. Have the heart and cross icon below the image on the page.✅
 
-<!-- HTML BREAKDOWN -->
+<!--  -->

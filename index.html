@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TinDog</title>
 
+    <!-- Google Poppins Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- link for index.css -->
     <link rel="stylesheet" href="css/index.css" />
   </head>
@@ -29,11 +37,16 @@
     </header>
     <main class="main">
       <!-- Render Dog Image -->
-      <img
-        src="images\dogs\akita.webp"
-        alt="Dog image of akita breed"
-        class="dog-img"
-      />
+      <div class="dog-container">
+        <img
+          src="images\dogs\akita.webp"
+          alt="Dog image of akita breed"
+          class="dog-img"
+        />
+        <p class="dog-name">Teddy,</p>
+        <p class="dog-age">11</p>
+        <p class="dog-bio">How you doin?</p>
+      </div>
       <div class="cross-heart-icons-container">
         <img
           src="images\icons\nope-icon.png"
