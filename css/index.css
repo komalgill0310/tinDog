@@ -42,6 +42,7 @@ header img {
   margin: 0 7px;
   justify-self: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -52,4 +53,17 @@ header img {
   width: 100%;
   height: 100vh;
   border-radius: 15px;
+}
+
+.cross-heart-icons-container {
+  display: flex;
+  gap: 25px;
+  margin: 25px 0;
+}
+
+.cross-heart-icons-container img {
+  width: 37px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 11px;
 }

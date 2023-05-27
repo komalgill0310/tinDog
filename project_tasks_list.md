@@ -43,6 +43,6 @@ _SECOND TASK:_
 
 _THIRD TASK:_
 
-1. Have the heart and cross icon below the image on the page.
+1. Have the heart and cross icon below the image on the page.✅
 
 <!-- HTML BREAKDOWN -->
