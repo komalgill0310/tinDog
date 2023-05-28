@@ -45,4 +45,7 @@ _THIRD TASK:_
 
 1. Have the heart and cross icon below the image on the page.✅
 
-<!--  -->
+**JAVASCRIPT**
+
+1. add Dogs data to the data file✅
+2. store dogs images to the dogs folder✅
