@@ -1,8 +1,20 @@
-import dogData from "/js/data.js";
+import dogsData from "/js/data.js";
 import Dog from "/js/Dog.js";
 
-function render() {
-  document.querySelector(".dog-container").innerHTML = dog.getDogHtml();
+function getNewDog(dogs) {
+  return dogs.shift();
 }
 
-const dog = new Dog(dogData.dog);
+function handleIconClick() {
+  console.log("icon was clicked!");
+  render();
+}
+
+let dog = new Dog(getNewDog(dogsData));
+document.querySelector(".like-icon").addEventListener("click", handleIconClick);
+
+function render() {
+  document.querySelector(".main").innerHTML = dog.getDogHtml();
+}
+
+render();

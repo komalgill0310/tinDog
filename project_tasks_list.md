@@ -59,5 +59,11 @@ _THIRD TASK:_
 
 _FIRST TASK:_
 
-1. Create a class for Dog.
-2.
+<!-- Render the html along with DOG container on the page, when the app starts. -->
+
+1. Render the html from Dog class, which will render the data.
+
+<!-- How to loop through data and render it dynamically using Dog Class. -->
+
+1. Attach an event listener to the heart icon.
+   - When click on it, "Heart Icon" msg will be printed on console.

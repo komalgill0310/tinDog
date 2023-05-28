@@ -109,3 +109,16 @@ img {
   padding: 11px;
   width: 37px;
 }
+
+/* ICONS */
+.like-icon {
+  cursor: pointer;
+}
+
+@media (max-width: 300px) {
+  .dog-img {
+    max-width: 100%;
+    width: auto;
+    max-height: 100%;
+  }
+}
