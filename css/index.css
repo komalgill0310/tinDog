@@ -100,6 +100,7 @@ img {
 .cross-heart-icons-container {
   gap: 25px;
   margin: 25px 0;
+  justify-self: center;
 }
 
 .cross-heart-icons-container img {

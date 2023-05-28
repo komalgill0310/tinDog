@@ -49,3 +49,15 @@ _THIRD TASK:_
 
 1. add Dogs data to the data file✅
 2. store dogs images to the dogs folder✅
+
+<!-- HIGH LEVEL OVERVIEW FOR FUNCTIONALITY -->
+
+1. When user click on the heart icon, Like image will appear on top of the dog's image.
+2. When user click on the cross icon, Nope image will appear on the top of the dog's image.
+3. When either NOPE or LIKE has been appeared on the dog's image, both the heart and cross icon will be disabled, UNTIL the new image has appeared.
+4. STEP#1 till STEP#3, WILL repeat itself, until all the data has been appeared on the page.
+
+_FIRST TASK:_
+
+1. Create a class for Dog.
+2.
