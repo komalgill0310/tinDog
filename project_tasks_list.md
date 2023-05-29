@@ -82,3 +82,8 @@ _FIRST TASK:_
 1. Call dog's instance each time, when click on the button
 
 <!-- Return an empty object, when the array is empty -->✅
+
+**NEXT GOAL: Make the dog data gets rendered when click on either of the icon.**✅
+
+1. Attach an event listener for the nope-icon
+2. Call the same function which was called when click on the Heart icon.

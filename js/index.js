@@ -11,11 +11,12 @@ function handleIconClick() {
   render();
 }
 
-let dog = getNewDog(dogsData);
 document.querySelector(".like-icon").addEventListener("click", handleIconClick);
+document.querySelector(".nope-icon").addEventListener("click", handleIconClick);
 
 function render() {
   document.querySelector(".main").innerHTML = dog.getDogHtml();
 }
 
 render();
+let dog = getNewDog(dogsData);
