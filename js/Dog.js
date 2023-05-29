@@ -3,7 +3,6 @@ class Dog {
     Object.assign(this, data);
   }
   getDogHtml() {
-    console.log("Heart Icon!");
     const { name, avatar, age, bio } = this;
     return `
       <div class="dog-container">

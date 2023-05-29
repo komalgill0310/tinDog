@@ -61,9 +61,24 @@ _FIRST TASK:_
 
 <!-- Render the html along with DOG container on the page, when the app starts. -->
 
-1. Render the html from Dog class, which will render the data.
+1. Render the html from Dog class, which will render the data.✅
 
-<!-- How to loop through data and render it dynamically using Dog Class. -->
+<!-- How to loop through data and render it dynamically using Dog Class. -->✅
 
 1. Attach an event listener to the heart icon.
-   - When click on it, "Heart Icon" msg will be printed on console.
+   - When click on it, "Heart Icon" msg will be printed on console.✅
+     <!-- How to make the new Dog data render on the page, when click on the heart icon -->
+
+**Breakdown:**
+
+1.  getNewDog() => gives new dog object.
+2.  getDogHtml() => will create an html for the dog object, and when called will render the html on the page.
+3.  render() => will render the html from the _getDogHtml()_, function.
+
+<!-- How, When, where to call the getNewDog() -->
+
+=> Somehow attach the getNewDog() with the getDogHtml(), so when render() gets called, it will call the getNewDog(), which then call the getDogHtml() with the new object.
+
+1. Call dog's instance each time, when click on the button
+
+<!-- Return an empty object, when the array is empty -->✅

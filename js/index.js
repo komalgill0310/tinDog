@@ -2,15 +2,16 @@ import dogsData from "/js/data.js";
 import Dog from "/js/Dog.js";
 
 function getNewDog(dogs) {
-  return dogs.shift();
+  let newDog = dogs.shift();
+  return dogs.length ? new Dog(newDog) : {};
 }
 
 function handleIconClick() {
-  console.log("icon was clicked!");
+  dog = new Dog(getNewDog(dogsData));
   render();
 }
 
-let dog = new Dog(getNewDog(dogsData));
+let dog = getNewDog(dogsData);
 document.querySelector(".like-icon").addEventListener("click", handleIconClick);
 
 function render() {
