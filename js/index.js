@@ -15,6 +15,15 @@ function handleIconClick(e) {
   }
 }
 
+function endGame() {
+  let endMessage = "💖 full, no more 🐾 to choose.";
+  document.body.innerHTML = `
+    <div class="end-message">
+      <h2>${endMessage}</h2>
+    </div>
+  `;
+}
+
 document.querySelector(".like-icon").addEventListener("click", handleIconClick);
 document.querySelector(".nope-icon").addEventListener("click", handleIconClick);
 
@@ -33,5 +42,7 @@ setInterval(() => {
   if (dog.hasBeenSwiped) {
     dog = new Dog(getNewDog(dogsData));
     render();
+    console.log(dogsData);
+    !dogsData.length && endGame();
   }
 }, 1500);

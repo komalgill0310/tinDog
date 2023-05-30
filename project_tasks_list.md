@@ -110,4 +110,4 @@ _remember: to use the **hasBeenLiked** property alter according to the clicked i
 
 **Next Step: Next Dog Data should render right after a decision has been made for the Dog.**✅
 
-**Last Task for the JS Part: once the Dogs array is empty, render on the page that no more dogs for the left for the companionship!**
+**Last Task for the JS Part: once the Dogs array is empty, render on the page that no more dogs for the left for the companionship!**✅

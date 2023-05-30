@@ -119,6 +119,20 @@ img {
   left: 50px;
 }
 
+.end-message {
+  color: white;
+  font-size: 31px;
+  /* text-align: center; */
+  /* height: 100%; */
+  margin: auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.end-message h2 {
+  text-align: center;
+}
 /* ICONS */
 .like-icon {
   cursor: pointer;
