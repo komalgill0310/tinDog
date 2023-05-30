@@ -1,21 +1,35 @@
+import { getImageSrc } from "/js/utils.js";
+
 class Dog {
   constructor(data) {
     Object.assign(this, data);
+    this.imgSrc = "";
   }
 
-  setHasBeenSwiped(element) {
-    this.hasBeenSwiped = true;
-    this.setHasBeenLiked(element);
-    console.log("swiped: ", this.hasBeenSwiped);
+  setHasBeenSwiped(hasSwiped) {
+    this.hasBeenSwiped = hasSwiped;
+    return this.hasBeenSwiped;
   }
 
   setHasBeenLiked(element) {
     if (element.classList.contains("like-icon")) {
-      console.log("heart was clicked!");
-    } else if (element.classList.contains("nope-icon")) {
-      console.log("I got rejected!");
+      this.hasBeenLiked = true;
     }
+    return this.hasBeenLiked;
   }
+
+  getClickedImageHtml(element) {
+    this.imgSrc = getImageSrc(this.setHasBeenLiked(element));
+    console.log(this.imgSrc);
+    this.setHasBeenSwiped(true);
+    return `
+      <img src="${this.imgSrc}"
+      alt="dynamic heart or nope image"
+      class="like-nope-img"
+      />
+    `;
+  }
+
   getDogHtml() {
     const { name, avatar, age, bio } = this;
     return `
@@ -24,10 +38,6 @@ class Dog {
           src="${avatar}"
           alt="Dog image of akita breed"
           class="dog-img"
-        />
-        <img src=""
-        alt="dynamic heart or nope image"
-        class="icon-img"
         />
         <p class="dog-name">${name},</p>
         <p class="dog-age">${age}</p>

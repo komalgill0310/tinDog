@@ -110,6 +110,15 @@ img {
   width: 37px;
 }
 
+.like-nope-img {
+  position: absolute;
+  width: 234px;
+  height: auto;
+  transform: rotate(-30deg);
+  top: 200px;
+  left: 50px;
+}
+
 /* ICONS */
 .like-icon {
   cursor: pointer;

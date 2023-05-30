@@ -97,3 +97,15 @@ _FIRST TASK:_
 _remember: to use the **hasBeenLiked** property alter according to the clicked icon and then have the image source accordingly._
 
 1. hasBeenLiked's property value is getting changed according to the clicked icon. ✅
+
+**Style the image which show up, when clicked on the button accordingly.**
+
+<!-- Breakdown -->
+
+1. First have the image rendered when clicked on any of the icon.✅
+
+**Next Step: Style the image, so it appear on top of the Dog Image**✅
+
+**Next Step: After the image has been displayed, either LIKE or NOPE, both the buttons would be disabled.**
+
+1.
