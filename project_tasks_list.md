@@ -87,3 +87,13 @@ _FIRST TASK:_
 
 1. Attach an event listener for the nope-icon
 2. Call the same function which was called when click on the Heart icon.
+
+**NEXT GOAL: Make the image gets rendered on the dog image, when click on heart or nope icon.**
+
+<!-- BREAKDOWN -->
+
+*BEFORE THAT: Check if either of the button was clicked, then set **hasBeenSwiped to true**, then move towards rendering the image either like or nope image*✅
+
+_remember: to use the **hasBeenLiked** property alter according to the clicked icon and then have the image source accordingly._
+
+1. hasBeenLiked's property value is getting changed according to the clicked icon. ✅

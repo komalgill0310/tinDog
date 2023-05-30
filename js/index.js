@@ -6,9 +6,11 @@ function getNewDog(dogs) {
   return dogs.length ? new Dog(newDog) : {};
 }
 
-function handleIconClick() {
+function handleIconClick(e) {
+  let element = e.target;
+  dog.setHasBeenSwiped(element);
   dog = new Dog(getNewDog(dogsData));
-  render();
+  setTimeout(render, 1500);
 }
 
 document.querySelector(".like-icon").addEventListener("click", handleIconClick);
@@ -18,5 +20,5 @@ function render() {
   document.querySelector(".main").innerHTML = dog.getDogHtml();
 }
 
-render();
 let dog = getNewDog(dogsData);
+render();
