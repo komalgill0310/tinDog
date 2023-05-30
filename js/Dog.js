@@ -20,7 +20,6 @@ class Dog {
 
   getClickedImageHtml(element) {
     this.imgSrc = getImageSrc(this.setHasBeenLiked(element));
-    console.log(this.imgSrc);
     this.setHasBeenSwiped(true);
     return `
       <img src="${this.imgSrc}"

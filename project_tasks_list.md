@@ -106,6 +106,8 @@ _remember: to use the **hasBeenLiked** property alter according to the clicked i
 
 **Next Step: Style the image, so it appear on top of the Dog Image**✅
 
-**Next Step: After the image has been displayed, either LIKE or NOPE, both the buttons would be disabled.**
+**Next Step: After the image has been displayed, either LIKE or NOPE, both the buttons would be disabled.**✅
 
-1.
+**Next Step: Next Dog Data should render right after a decision has been made for the Dog.**✅
+
+**Last Task for the JS Part: once the Dogs array is empty, render on the page that no more dogs for the left for the companionship!**
