@@ -3,13 +3,13 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
   display: flex;
+  align-items: center;
   justify-content: center;
   height: 100vh;
-  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
   background-image: url("/images/background-img.png");
 }
 
@@ -25,21 +25,21 @@ img {
     "header header header"
     "content content content"
     "footer footer footer";
-  max-width: 550px;
   height: auto;
-  width: 100%;
   border-radius: 13px;
-  background-color: whitesmoke;
+  max-width: 550px;
   margin: 21px;
+  width: 100%;
+  background-color: whitesmoke;
 }
 
 /* HEADER */
 
 .header {
-  grid-area: header;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  grid-area: header;
   padding: 13px;
 }
 
@@ -48,11 +48,11 @@ img {
 }
 
 .paw-icon {
-  background: linear-gradient(170deg, #fa695a 0%, #f83375 100%);
-  border-radius: 30px;
-  padding: 7px 17px;
   width: 22px;
+  padding: 7px 17px;
+  border-radius: 30px;
   box-sizing: content-box;
+  background: linear-gradient(170deg, #fa695a 0%, #f83375 100%);
 }
 
 /* MAIN */
@@ -75,51 +75,56 @@ img {
 
 .dog-info {
   display: flex;
-  grid-area: 1 / 1 / 2 / -1;
   flex-direction: column;
+  grid-area: 1 / 1 / 2 / -1;
   margin: 0 13px;
 }
 
 .dog-name-age {
-  margin-bottom: 0;
-  color: whitesmoke;
   font-size: 21px;
   font-weight: 600;
   line-height: 16px;
+  margin-bottom: 0;
+  color: whitesmoke;
   text-shadow: 1px -2px 3px #f83375;
 }
 
 .dog-bio {
-  margin-top: 7px;
-  font-weight: 400;
   font-size: 17px;
+  font-weight: 400;
   line-height: 21px;
+  margin-top: 7px;
 }
+
+/* Clicking icons show associated images */
 
 .like-nope-img {
   grid-area: 1 / 1 / 2 / 1;
+  align-self: start;
   width: 134px;
   height: auto;
-  transform: rotate(-31deg);
-  align-self: start;
   margin-top: 28px;
+  transform: rotate(-31deg);
 }
 
+/* FOOTER */
+
 .cross-heart-icons-container {
+  display: flex;
+  justify-self: center;
   grid-area: footer;
   gap: 25px;
   margin: 25px 0;
-  justify-self: center;
-  display: flex;
 }
 
 /* ICONS */
+
 .icon {
+  align-items: center;
+  width: 53px;
+  padding: 11px;
   cursor: pointer;
   border-radius: 50%;
-  align-items: center;
-  padding: 11px;
-  width: 53px;
   background: #ffffff;
   box-shadow: 0px 10px 20px #e9e9ea;
 }
@@ -134,19 +139,15 @@ img {
   box-shadow: 0px 10px 20px #edd9df;
 }
 
+/* End message for no data */
+
 .end-message {
-  font-size: 31px;
-  text-align: center;
-  height: 100%;
-  margin: auto;
   display: flex;
-  justify-items: center;
-  align-items: center;
+  font-size: 31px;
+  margin: auto;
 }
 
-.end-message h2 {
-  text-align: center;
-}
+/* Media Queries */
 
 @media (max-width: 300px) {
   .like-nope-img {

@@ -112,6 +112,4 @@ _remember: to use the **hasBeenLiked** property alter according to the clicked i
 
 **Last Task for the JS Part: once the Dogs array is empty, render on the page that no more dogs for the left for the companionship!**✅
 
-**On to CSS Part:**
-
-1. fix the layout for the mobile layout.
+**On to CSS Part: Finish Styling the app.**✅
