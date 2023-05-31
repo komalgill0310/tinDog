@@ -18,7 +18,7 @@ class Dog {
     return this.hasBeenLiked;
   }
 
-  getClickedImageHtml(element) {
+  getAssociatedImageHtml(element) {
     this.imgSrc = getImageSrc(this.setHasBeenLiked(element));
     this.setHasBeenSwiped(true);
     return `
