@@ -32,7 +32,8 @@ function render() {
 }
 
 function renderClickedImage(element) {
-  document.querySelector(".main").innerHTML += dog.getClickedImageHtml(element);
+  document.querySelector(".dog-container").innerHTML +=
+    dog.getClickedImageHtml(element);
 }
 let dog = getNewDog(dogsData);
 

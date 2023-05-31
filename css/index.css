@@ -74,7 +74,7 @@ img {
   display: flex;
   grid-area: 1 / 1 / 2 / -1;
   flex-direction: column;
-  margin-left: 13px;
+  margin: 0 13px;
 }
 
 .dog-name-age {
@@ -87,11 +87,21 @@ img {
 }
 
 .dog-bio {
-  margin-top: 8px;
+  margin-top: 7px;
   font-weight: 400;
   font-size: 17px;
   line-height: 21px;
 }
+
+.like-nope-img {
+  grid-area: 1 / 1 / 2 / 1;
+  width: 134px;
+  height: auto;
+  transform: rotate(-31deg);
+  align-self: start;
+  margin-top: 28px;
+}
+
 .cross-heart-icons-container {
   grid-area: footer;
   gap: 25px;
@@ -119,4 +129,18 @@ img {
 .nope-icon:hover {
   background: #ffe7ef;
   box-shadow: 0px 10px 20px #edd9df;
+}
+
+@media (max-width: 300px) {
+  .like-nope-img {
+    width: 90px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 700px) {
+  .like-nope-img {
+    width: 184px;
+    margin-top: 40px;
+  }
 }
