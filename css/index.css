@@ -143,4 +143,14 @@ img {
     width: 184px;
     margin-top: 40px;
   }
+
+  .dog-name-age {
+    font-size: 42px;
+    line-height: 36px;
+  }
+
+  .dog-bio {
+    font-size: 32px;
+    line-height: 38px;
+  }
 }
