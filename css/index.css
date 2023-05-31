@@ -8,8 +8,9 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  height: 100%;
+  height: 100vh;
   align-items: center;
+  background-image: url("/images/images.png");
 }
 
 /* IMAGES */
@@ -19,16 +20,17 @@ img {
 }
 
 .container {
-  border: 2px solid red;
   display: grid;
   grid-template-areas:
     "header header header"
     "content content content"
     "footer footer footer";
   max-width: 550px;
+  height: auto;
   width: 100%;
   border-radius: 13px;
   background-color: whitesmoke;
+  margin: 21px;
 }
 
 /* HEADER */
@@ -57,17 +59,18 @@ img {
 
 .main {
   grid-area: content;
-  border: 1px solid orchid;
 }
 
 .dog-container {
   display: grid;
   align-items: end;
   justify-items: start;
+  padding: 0 7px;
 }
 
 .dog-img {
   grid-area: 1 / 1 / -1 / -1;
+  border-radius: 7px;
 }
 
 .dog-info {
@@ -131,6 +134,20 @@ img {
   box-shadow: 0px 10px 20px #edd9df;
 }
 
+.end-message {
+  font-size: 31px;
+  text-align: center;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.end-message h2 {
+  text-align: center;
+}
+
 @media (max-width: 300px) {
   .like-nope-img {
     width: 90px;
@@ -150,7 +167,7 @@ img {
   }
 
   .dog-bio {
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 23px;
+    line-height: 31px;
   }
 }
