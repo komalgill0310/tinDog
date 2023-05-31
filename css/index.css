@@ -21,7 +21,6 @@ img {
 .container {
   border: 2px solid red;
   display: grid;
-  grid-template-rows: repeat(3, minmax(50px, auto));
   grid-template-areas:
     "header header header"
     "content content content"
@@ -29,11 +28,13 @@ img {
   max-width: 550px;
   width: 100%;
   border-radius: 13px;
+  background-color: whitesmoke;
 }
+
+/* HEADER */
 
 .header {
   grid-area: header;
-  border: 1px solid green;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,12 +53,70 @@ img {
   box-sizing: content-box;
 }
 
+/* MAIN */
+
 .main {
   grid-area: content;
   border: 1px solid orchid;
 }
 
+.dog-container {
+  display: grid;
+  align-items: end;
+  justify-items: start;
+}
+
+.dog-img {
+  grid-area: 1 / 1 / -1 / -1;
+}
+
+.dog-info {
+  display: flex;
+  grid-area: 1 / 1 / 2 / -1;
+  flex-direction: column;
+  margin-left: 13px;
+}
+
+.dog-name-age {
+  margin-bottom: 0;
+  color: whitesmoke;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 16px;
+  text-shadow: 1px -2px 3px #f83375;
+}
+
+.dog-bio {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+}
 .cross-heart-icons-container {
   grid-area: footer;
-  border: 1px solid palevioletred;
+  gap: 25px;
+  margin: 25px 0;
+  justify-self: center;
+  display: flex;
+}
+
+/* ICONS */
+.icon {
+  cursor: pointer;
+  border-radius: 50%;
+  align-items: center;
+  padding: 11px;
+  width: 53px;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px #e9e9ea;
+}
+
+.like-icon:hover {
+  background: #dbfff4;
+  box-shadow: 0px 10px 20px #ccf1e6;
+}
+
+.nope-icon:hover {
+  background: #ffe7ef;
+  box-shadow: 0px 10px 20px #edd9df;
 }

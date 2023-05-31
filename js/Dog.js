@@ -38,9 +38,10 @@ class Dog {
           alt="Dog image of akita breed"
           class="dog-img"
         />
-        <p class="dog-name">${name},</p>
-        <p class="dog-age">${age}</p>
-        <p class="dog-bio">${bio}</p>
+        <div class="dog-info">
+          <p class="dog-name-age">${name}, ${age}</p>
+          <p class="dog-bio">${bio}</p>
+        </div>
       </div>
       `;
   }
