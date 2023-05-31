@@ -23,19 +23,19 @@ class Dog {
     this.setHasBeenSwiped(true);
     return `
       <img src="${this.imgSrc}"
-      alt="dynamic heart or nope image"
+      alt="heart or nope image"
       class="like-nope-img"
       />
     `;
   }
 
   getDogHtml() {
-    const { name, avatar, age, bio } = this;
+    const { name, avatar, alt, age, bio } = this;
     return `
       <div class="dog-container">
         <img
           src="${avatar}"
-          alt="Dog image of akita breed"
+          alt="${alt}"
           class="dog-img"
         />
         <div class="dog-info">
