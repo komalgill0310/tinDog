@@ -24,14 +24,6 @@ This project has been a valuable learning experience. Key learnings include:
 
 - **Understanding Classes in JavaScript**: Gaining a deeper understanding of using classes in JavaScript for more organized and efficient code.
 
-## Features
-
-- **Adorable Dog Showcase**: Displaying pictures of adorable dogs along with their name, age, and brief description.
-
-- **Interactive Buttons**: Heart icon for **"like"** and cross icon for **"nope"**, allowing users to express their preferences.
-
-- **Tagging System**: Adding **"like"** or **"nope"** tags to indicate user preferences.
-
 ## Getting Started
 
 Explore Tindog by following these steps:
@@ -54,6 +46,14 @@ Explore Tindog by following these steps:
    Open the **index.html** file in your preferred web browser.
 
 Now, you're all set! Explore Tindog and find the perfect canine companion for your pet!
+
+## Features
+
+- **Adorable Dog Showcase**: Displaying pictures of adorable dogs along with their name, age, and brief description.
+
+- **Interactive Buttons**: Heart icon for **"like"** and cross icon for **"nope"**, allowing users to express their preferences.
+
+- **Tagging System**: Adding **"like"** or **"nope"** tags to indicate user preferences.
 
 # Author
 
